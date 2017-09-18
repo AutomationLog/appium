@@ -24,8 +24,6 @@
             "appium-ios-simulator",
             "appium-remote-debugger",
             "appium-safari-driver",
-            "appium-selendroid-driver",
-            "appium-selendroid-installer",
             "appium-support",
             "appium-uiauto",
             "appium-uiautomator",
