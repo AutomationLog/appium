@@ -27,7 +27,7 @@
   },
   "main": "./build/lib/main.js",
   "bin": {
-    "appium": "./build/lib/main.js"
+    "mini-appium": "./build/lib/main.js"
   },
   "directories": {
     "lib": "./lib",
