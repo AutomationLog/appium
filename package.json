@@ -1,5 +1,5 @@
 {
-  "name": "appium",
+  "name": "mini-appium",
   "description": "Automation for Apps.",
   "tags": [
     "automation",
@@ -11,15 +11,15 @@
     "firefoxos",
     "testing"
   ],
-  "version": "1.7.0",
-  "author": "https://github.com/appium",
+  "version": "1.7.0-mini",
+  "author": "https://github.com/AutomationLog",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/appium/appium.git"
+    "url": "https://github.com/AutomationLog/mini-appium.git"
   },
   "bugs": {
-    "url": "https://github.com/appium/appium/issues"
+    "url": "https://github.com/AutomationLog/mini-appium.git"
   },
   "engines": {
     "node": ">=5",
@@ -27,7 +27,7 @@
   },
   "main": "./build/lib/main.js",
   "bin": {
-    "appium": "./build/lib/main.js"
+    "mini-appium": "./build/lib/main.js"
   },
   "directories": {
     "lib": "./lib",
@@ -39,13 +39,9 @@
     "appium-espresso-driver": "^1.0.0-beta.3",
     "appium-fake-driver": "0.x",
     "appium-ios-driver": "1.x",
-    "appium-mac-driver": "1.x",
-    "appium-selendroid-driver": "1.x",
     "appium-support": "2.x",
     "appium-uiautomator2-driver": "0.x",
-    "appium-windows-driver": "0.x",
     "appium-xcuitest-driver": "2.x",
-    "appium-youiengine-driver": "1.x",
     "argparse": "1.x",
     "async-lock": "^1.0.0",
     "asyncbox": "2.x",
